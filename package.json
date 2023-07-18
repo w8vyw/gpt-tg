@@ -1,0 +1,23 @@
+{
+	"name": "gpt-tg",
+	"version": "1.0.0",
+	"description": "ChatGPT 3.5 Turbo with support voice messages in Telegram bot",
+	"author": "w8vy",
+	"homepage": "https://github.com/w8vyw/gpt-tg",
+	"type": "module",
+	"main": "main.js",
+	"scripts": {
+		"dev": "nodemon main.js",
+		"start": "node main.js"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.22"
+	},
+	"dependencies": {
+		"@ffmpeg-installer/ffmpeg": "^1.1.0",
+		"axios": "^1.4.0",
+		"fluent-ffmpeg": "^2.1.2",
+		"openai": "^3.3.0",
+		"telegraf": "^4.12.2"
+	}
+}
