@@ -1,5 +1,5 @@
 let BOT_TOKEN = '' // required
-let openAI_API_KEY = '' // required
+let OPEN_AI_API_KEY = '' // required
 
 
 
@@ -133,7 +133,7 @@ class OpenAI {
 	}
 }
 
-const openAI = new OpenAI(openAI_API_KEY)
+const openAI = new OpenAI(OPEN_AI_API_KEY)
 
 
 
